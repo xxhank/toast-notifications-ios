@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/ecstasy2/toast-notifications-ios.git' ,:commit => '68ea9a1'}
   s.source_files = '*.{h,m}'
   s.framework    = 'QuartzCore'
-  s.requires_arc = true
+  s.requires_arc = false
 end
